@@ -1,0 +1,6 @@
+# This file contains the changes applied to photos in this directory using Picturama.
+# See: https://picturama.github.io/
+
+photos:
+  me.jpg:
+    cropRect: {x: -540, 'y': -969, width: 1026, height: 1769}
