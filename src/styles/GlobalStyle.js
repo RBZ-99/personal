@@ -28,24 +28,6 @@ const GlobalStyle = createGlobalStyle`
     outline: 2px dashed var(--green);
     outline-offset: 3px;
   }
-  /*
-  Remove default focus styles for mouse users ONLY if
-  :focus-visible is supported on this platform.
-*/
-:focus:not(:focus-visible) {
-  outline: none;
-  outline-offset: 0px;
-}
-
-/*
-  Optionally: If :focus-visible is supported on this
-  platform, provide enhanced focus styles for keyboard
-  focus.
-*/
-:focus-visible {
-  outline: 2px dashed var(--green);
-  outline-offset: 3px;
-}
 
   /* Scrollbar Styles */
   html {

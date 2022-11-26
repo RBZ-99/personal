@@ -174,12 +174,6 @@ const StyledProject = styled.li`
     a {
       ${({ theme }) => theme.mixins.inlineLink};
     }
-
-    strong {
-      color: var(--white);
-      font-weight: normal;
-    }
-
   }
 
   .project-tech-list {
@@ -233,11 +227,6 @@ const StyledProject = styled.li`
         width: 20px;
         height: 20px;
       }
-    }
-
-    .cta {
-      ${({ theme }) => theme.mixins.smallButton};
-      margin: 10px;
     }
   }
 
@@ -298,7 +287,7 @@ const StyledProject = styled.li`
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(50%);
+        filter: grayscale(100%) contrast(1) brightness(80%);
       }
     }
   }

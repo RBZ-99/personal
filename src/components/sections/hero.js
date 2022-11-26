@@ -60,10 +60,14 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Rushikesh Zawar.</h2>;
-  const three = <h3 className="big-heading">I love to work and learn in Computer Science, A.I. and Biology.</h3>;
+  const three = <h3 className="big-heading">I love to work and learn in Computer Science and Biology.</h3>;
   const four = (
     <p>
-      Graduated in 2022 with dual majors in Computer Science and Biological Sciences from BITS Pilani, Pilani Campus, India, in June 2022. I am currently working on Deep fake detection and interpretaibility in Computer Vision.
+      I'm a student pursuing dual majors of Computer Science and Biological Sciences at BITS Pilani, Pilani Campus, India, graduating in June 2022. I am currently working on Continual Learning in Computer Vision at {' '}
+      <a href="https://www.harvard.edu/" target="_blank" rel="noreferrer">
+      Harvard University
+      </a>
+      .
     </p>
   );
   const five = (
